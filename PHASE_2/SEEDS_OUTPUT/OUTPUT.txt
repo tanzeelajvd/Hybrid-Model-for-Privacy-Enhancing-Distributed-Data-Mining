@@ -1,0 +1,41 @@
+runfile('C:/Users/Administrator/Desktop/Tanzeela/K-MEANS final.py', wdir='C:/Users/Administrator/Desktop/Tanzeela')
+Reloaded modules: rss_algo
+
+Enter input csv filename:
+seeds_dataset - secured.csv
+
+Enter number of points to run, (enter 0 for using complete file):
+199
+
+Enter the number of clusters you want to create:
+3
+Starting K-MEANS with RSS Method 
+
+Loop Count: 1
+Loop Count: 2
+Loop Count: 3
+Loop Count: 4
+Loop Count: 5
+Loop Count: 6
+Loop Count: 7
+Loop Count: 8
+Loop Count: 9
+Loop Count: 10
+Loop Count: 11
+Loop Count: 12
+Loops ran for reaching to final centroids: 13
+RSS Method completed in 121017.05028510094 seconds 
+
+Starting K-MEANS with Simple Method 
+
+Loop Count: 1
+Loop Count: 2
+Loop Count: 3
+Loop Count: 4
+Loops ran for reaching to final centroids: 5
+Simple Method completed in 0.09375214576721191 seconds 
+
+Difference in execution time of simple k-means algorithm and k-means algorithm withh RSS : 121016.95653295517 seconds
+Accuracy of the K-Means Algorithm : 99.4949494949495 
+
+Error : 0.3333333333333333
